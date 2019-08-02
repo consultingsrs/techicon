@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-	background: black;
+	background: #e1e4e6;
 	padding: 20px 0;
 	height: 70px;
 	position: fixed;
@@ -113,7 +113,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #header #logo img {
 	padding: 0;
-	margin: 0;
 }
 
 @media ( max-width : 768px) {
@@ -126,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-	background: black;
+	background: #e1e4e6;
 	padding: 20px 0;
 	height: 72px;
 }
@@ -297,7 +296,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0 8px 10px 8px;
 	text-decoration: none;
 	display: inline-block;
-	color: #fff;
+	color: #1d389c;
 	font-family: "Poppins", sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -1064,7 +1063,7 @@ element.style {
 	height: 40vh;
 	margin-top:60px;
 	background: url(../img/industries.jpg) center;
-	background-size: contain;
+	background-size: cover;
 	position: relative;
 }
 
@@ -1073,18 +1072,18 @@ element.style {
 	margin-top:60px;
 	height: 50vh;
 	background: url(../img/ondemand.png) center;
-	background-size: contain;
+	background-size: cover;
 	position: relative;
 }
 
 
 .head-corp-traning {
-	width: 100%;
-	height: 50vh;
-	margin-top:60px;
-	background: url(../img/corporate.png) center;
-	background-size: contain;
-	position: relative;
+    width: 100%;
+    height: 50vh;
+    margin-top: 60px;
+    background: url(../img/corporate.png) center;
+    backgro	und-size: cover;
+    position: relative;
 }
 
 
@@ -1092,7 +1091,7 @@ element.style {
 	width: 100%;
 	margin-top:60px;
 	height: 40vh;
-	background: url(../img/career.jpg);
+	background: url(../img/career.jpg) center;
 	background-size: cover;
 	position: relative;
 }
@@ -1101,7 +1100,7 @@ element.style {
 	width: 100%;
 	margin-top:60px;
 	height: 40vh;
-	background: url(../img/aboutus.jpg);
+	background: url(../img/aboutus.jpg) center;
 	background-size: cover;
 	position: relative;
 }
@@ -1116,7 +1115,7 @@ element.style {
 }
 
 #healthcare .about-container .background {
-	min-height: 300px;
+	min-height: 300px;cover
 	background: url(../img/healthcare.jpg) center top no-repeat;
 	margin-bottom: 10px;
 }
@@ -1134,19 +1133,19 @@ element.style {
 }
 
 .head-client {
-	width: 100%;
-	margin-top:60px;
-	height: 40vh;
-	background: url(../img/career.jpg);
-	background-size: cover;
-	position: relative;
+    width: 100%;
+    margin-top: 60px;
+    height: 40vh;
+    background: url(../img/career.jpg) center;
+    background-size: cover;
+    position: relative;
 }
 
 .head-classroom {
 	width: 100%;
 	margin-top:60px;
 	height: 40vh;
-	background: url(../img/classroom.png);
+	background: url(../img/classroom.png) center;
 	background-size: cover;
 	position: relative;
 }
